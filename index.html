@@ -95,29 +95,32 @@
         https://www.ansible.com/use-cases-overview
         https://serversforhackers.com/an-ansible-tutorial
         https://www.linode.com/docs/applications/ansible/getting-started-with-ansible
+        https://wiredcraft.com/blog/getting-started-with-ansible-in-5-minutes/
         
     </aside>
                     
                 </section>
 
                 <!-- Large image slide -->
-                <section class="image-slide">
-                    <h2>Chroot</h2>
-                    <img src="img/root.jpg" alt="Root">
-                </section>
+        <!--         <section class="image-slide">
+                    <h2>Ansible</h2>
+                    <img src="img/ansible-logo.jpg" alt="Root">
+                </section> -->
 
                 <section>
-                    <h3>Chroot</h3>
+                    <h3>Agentless Architecture</h3>
                     <ul>
-                        <li>Introduced in V7 Unix in 1979</li>
-                        <li>Changes the apparent root directory for a process and its children</li>
+                        <li>Ansible uses SSH to connect to servers</li>
+                        <li>So, nothing needs to be installed on the machines you are targeting</li>
+                        <li>Ansible only needs to be installed on the control machine, or the machine from which you will be running commands.</li>
+                        <li><a href="https://www.ansible.com/how-ansible-works"></a>more on hoe ansible works.</li>
                     </ul>
                 </section>
 
                 <!-- Large image slide -->
                 <section class="image-slide">
-                    <h2>FreeBSD Jails</h2>
-                    <img src="img/jail.jpg" alt="Jail">
+                    <h2><a href="http://docs.ansible.com/ansible/intro_installation.html#installing-the-control-machine">uses a push approach</a></h2>
+                    <img src="img/ansible-push-vs-pull.png" alt="ansible-push-vs-pull">
                 </section>
 
                 <section>
@@ -467,14 +470,10 @@
                 </section>
 
                 <section>
-                    <h3>How will these technologies change what we do?</h3>
+                    <h3>Good Resources</h3>
                     <ul>
-                        <li>Services shared between clients?</li>
-                        <li>Easier to upgrade to newer technologies and languages</li>
-                        <li>Services designed to function on generic resources (no more snowflake hardware)</li>
-                        <li>Efficient scale out (by service not machine)</li>
-                        <li>Better resource utilisation</li>
-                        <li>We all become public cloud consumers?</li>
+                        <li><a href="https://www.ansible.com/resources"></a>Ansible insights to watch, read & share.</li>
+                        <li><a href="https://leanpub.com/ansible-for-devops">Server and configuration management for humans</a> - <a href="https://github.com/geerlingguy">Jeff Geerling</a></li>
                     </ul>
                 </section>
 
